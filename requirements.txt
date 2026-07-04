@@ -1,0 +1,5 @@
+flask
+yt-dlp
+imageio-ffmpeg
+edge-tts
+gTTS
