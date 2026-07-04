@@ -1,0 +1,15 @@
+flask
+yt-dlp
+imageio-ffmpeg
+edge-tts
+gTTS
+
+# AI HD Enhance (ai_enhance.py) — face restoration + upscaling
+opencv-python
+numpy
+torch
+torchvision
+basicsr
+facexlib
+gfpgan
+realesrgan
