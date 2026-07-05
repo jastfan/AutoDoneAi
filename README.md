@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 AutoDoneAi
+# 🤖 AutoShortAi
 
 **Paste a video link. Get edited, HD-enhanced, ready-to-post vertical Shorts — cut, upscaled, voiced-over, and exported, all locally in your browser.**
 
@@ -21,9 +21,9 @@ A local YouTube Shorts / Reels automation studio: powered by `yt-dlp` for fetchi
 
 ---
 
-## Why AutoDoneAi?
+## Why AutoShortAi?
 
-Most "video to Shorts" tools either lock you into a paid SaaS, upload your footage to someone else's server, or hand you one flat auto-cut file with zero control. AutoDoneAi is different:
+Most "video to Shorts" tools either lock you into a paid SaaS, upload your footage to someone else's server, or hand you one flat auto-cut file with zero control. AutoShortAi is different:
 
 - **100% local** — nothing you process leaves your machine. No account, no cloud storage, no subscription.
 - **One script, full pipeline** — fetch → cut → live-edit → AI-enhance → export, all in a single Flask app with a modern browser UI (no build step).
@@ -49,8 +49,8 @@ Most "video to Shorts" tools either lock you into a paid SaaS, upload your foota
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/jastfan/AutoDoneAi.git
-cd AutoDoneAi
+git clone https://github.com/jastfan/AutoShortAi.git
+cd AutoShortAi
 pip install -r requirements.txt
 python autojob.py
 ```
@@ -76,7 +76,7 @@ The app opens automatically at `http://127.0.0.1:5789`.
 
 ## 🌍 Beyond YouTube
 
-Under the hood, AutoDoneAi runs on `yt-dlp`, which supports 1,800+ sites — so pasting a link from Instagram, Facebook, or many other platforms will often work out of the box. The bot-detection bypass and cookie-fallback logic in this build are currently tuned specifically for YouTube; other platforms aren't yet tested to the same degree, and cookie handling for platform-locked content may need extra setup. Wider, tested multi-platform support is an active roadmap item — see below.
+Under the hood, AutoShortAi runs on `yt-dlp`, which supports 1,800+ sites — so pasting a link from Instagram, Facebook, or many other platforms will often work out of the box. The bot-detection bypass and cookie-fallback logic in this build are currently tuned specifically for YouTube; other platforms aren't yet tested to the same degree, and cookie handling for platform-locked content may need extra setup. Wider, tested multi-platform support is an active roadmap item — see below.
 
 ## 🗺 Roadmap
 
@@ -87,7 +87,7 @@ Under the hood, AutoDoneAi runs on `yt-dlp`, which supports 1,800+ sites — so 
 - [ ] Docker image for one-command setup
 - [ ] Multi-language UI
 
-Have an idea? [Open an issue](https://github.com/jastfan/AutoDoneAi/issues) or check [`good first issue`](https://github.com/jastfan/AutoDoneAi/labels/good%20first%20issue) to contribute.
+Have an idea? [Open an issue](https://github.com/jastfan/AutoShortAi/issues) or check [`good first issue`](https://github.com/jastfan/AutoShortAi/labels/good%20first%20issue) to contribute.
 
 ## 🤝 Contributing
 
